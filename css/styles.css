@@ -1,17 +1,249 @@
+body{
+    font-family: "roboto", sans-serif;
+
+}
+.HeadF{
+
+background-color: #E7E9FC;
+
+}
+
+
 .List{
     list-style: none;
 }
 .Decoration{
     text-decoration: none;
 }
+
+/* ///////////////////////////////////////////////////////////////////////////////////// */
+/* Logo 1st part */
+.Web{
+   
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33x;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+/* Logo 2d part */
 .Text-Head{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.33;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2E2F42;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+
+    /* Navigation links */
+.Nav{
+
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.Nav:hover{
+color: #434455;
+}
+.Nav:focus{
+color: #4D5AE5;
+}
+.Contacts:hover{
+  color:#4D5AE5;  
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+/*  Contacts  */
+.Contacts{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    }
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+/* Hero section  */
+     /* Hero Text */
+
+.Section1-h{
+
+    
+    
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.09;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+}
+     /* Hero Section background */
+.Section1{
+   
+    background: #2E2F42;
+}
+.Button-BG{
+    
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;    
+    color: #FFFFFF;
+    
+
+    /* Color of Button */
+      background: #4D5AE5;
+      /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 4px; */
+}
+.Button-BG:hover{
+    color:#4D5AE5;
+}
+.Button-BG:focus{
+    color: #404BBF;;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Second Section */
+/* Invisible header of 2d section */
+.visually-hidden {
+    position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+  }
+/* Headers of 2d section */
+.Section-Features{
+
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+/* Text of 2d section */
+.sect{
+
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5x;   
+    letter-spacing: 0.02em;     
+    color: #434455;
+
+}
+
+
+
+
+/* .Section2{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+} */
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+/* Section 2 - 3 headers */
+.h2-headers{
+
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+.h3-headers{
+
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.h3text{
+
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.sec4bg{
+    background: #F4F4FD;
+}
+.teambox{
+    width: 264px;
+    height: 380px;
+    background: #FFFFFF;
+}
+.sec2size{
+    width: 264px;
+    height: 104px;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Footer */
+.footerbg{
+    background: #2E2F42;
+}
+.Text-Head-F{
+font-family: 'Raleway';
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 24px;
+line-height: 21px;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4D5AE5;
+color: #F4F4FD;
 }
+.footertext{
+
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
+.footersize{
+    Width:264px;
+    Height:110px;
+    margin-left: 156px;
+}
+
+
+
+
+
+
+
