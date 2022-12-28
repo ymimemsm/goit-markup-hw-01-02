@@ -1,6 +1,6 @@
 body{
     font-family: "roboto", sans-serif;
-
+    color: #E5E5E5;;
 }
 .HeadF{
 
@@ -22,7 +22,7 @@ background-color: #E7E9FC;
    
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33x;
+    line-height: 1.33;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -31,7 +31,7 @@ background-color: #E7E9FC;
 }
 /* Logo 2d part */
 .Text-Head{
-        font-family: 'Raleway';
+        font-family: 'Raleway',sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
@@ -82,7 +82,7 @@ color: #4D5AE5;
 
     
     
-    font-weight: 700;
+    
     font-size: 56px;
     line-height: 1.09;
     text-align: center;
@@ -97,7 +97,7 @@ color: #4D5AE5;
 }
 .Button-BG{
     
-
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;    
@@ -113,10 +113,10 @@ color: #4D5AE5;
       border-radius: 4px; */
 }
 .Button-BG:hover{
-    color:#4D5AE5;
+    background-color:#4D5AE5;
 }
 .Button-BG:focus{
-    color: #404BBF;;
+    background-color: #404BBF;;
 }
 /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* Second Section */
@@ -183,7 +183,7 @@ color: #2E2F42;
 
 font-weight: 500;
 font-size: 20px;
-line-height: 24px;
+line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
@@ -192,7 +192,7 @@ color: #2E2F42;
 
 font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 color: #434455;
@@ -216,11 +216,11 @@ color: #434455;
     background: #2E2F42;
 }
 .Text-Head-F{
-font-family: 'Raleway';
+font-family: 'Raleway',sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 21px;
+line-height: 1.16;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
