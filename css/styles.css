@@ -204,6 +204,8 @@ color: #434455;
     width: 264px;
     height: 380px;
     background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
 }
 .sec2size{
     width: 264px;
@@ -240,10 +242,46 @@ color: #E7E9FC;
     Height:110px;
     margin-left: 156px;
 }
+/* ////////////////////////////////Portfolio/////////////////////////////////// */
 
+.Portfolio-Buttons{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;    
+    color: #4D5AE5;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    }
+    .Portfolio-Buttons:hover{
+        color: #FFFFFF;
+        background: #404BBF;;
+        
+    }
+.teamboxpf{
+    width: 360px;
+    height: 420px;
+    background: #FFFFFF;
+    border: 1px solid #E7E9FC;
+}
 
+.h3pf{
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
 
-
-
-
-
+.textpf{
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+}
