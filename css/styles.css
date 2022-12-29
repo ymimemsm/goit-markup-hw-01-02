@@ -8,7 +8,10 @@ background-color: #E7E9FC;
 
 }
 
-
+:root{
+ --main-color:#4D5AE5; 
+ --main-text-color: #2E2F42 ;
+}
 .List{
     list-style: none;
 }
@@ -27,7 +30,7 @@ background-color: #E7E9FC;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--main-color);
 }
 /* Logo 2d part */
 .Text-Head{
@@ -40,7 +43,7 @@ background-color: #E7E9FC;
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #2E2F42;
+        color: var(--main-text-color);
 }
 /* //////////////////////////////////////////////////////////////////////////////////////// */
 
@@ -52,16 +55,16 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--main-text-color);
 }
 .Nav:hover{
 color: #434455;
 }
 .Nav:focus{
-color: #4D5AE5;
+color: var(--main-color);
 }
 .Contacts:hover{
-  color:#4D5AE5;  
+  color: var(--main-color);  
 }
 
 /* //////////////////////////////////////////////////////////////////////////////////////// */
@@ -93,8 +96,9 @@ color: #4D5AE5;
      /* Hero Section background */
 .Section1{
    
-    background: #2E2F42;
+    background: var(--main-text-color);
 }
+/* Button text */
 .Button-BG{
     
     font-family: inherit;
@@ -108,15 +112,17 @@ color: #4D5AE5;
     
 
     /* Color of Button */
-      background: #4D5AE5;
-      /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-      border-radius: 4px; */
+      background: var(--main-color);
+      
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 4px;
+      
 }
 .Button-BG:hover{
-    background-color:#4D5AE5;
+    background-color:var(--main-color);
 }
 .Button-BG:focus{
-    background-color: #404BBF;;
+    background-color: var(--main-color);;
 }
 /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* Second Section */
@@ -140,7 +146,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--main-text-color);
 }
 /* Text of 2d section */
 .sect{
@@ -177,7 +183,7 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: #2E2F42;
+color: var(--main-text-color);
 }
 .h3-headers{
 
@@ -186,7 +192,7 @@ font-size: 20px;
 line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--main-text-color);
 }
 .h3text{
 
@@ -215,7 +221,7 @@ border-radius: 0px 0px 4px 4px;
 
 /* Footer */
 .footerbg{
-    background: #2E2F42;
+    background: var(--main-text-color);
 }
 .Text-Head-F{
 font-family: 'Raleway',sans-serif;
@@ -233,7 +239,7 @@ color: #F4F4FD;
 
 font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
 }
@@ -245,15 +251,15 @@ color: #E7E9FC;
 /* ////////////////////////////////Portfolio/////////////////////////////////// */
 
 .Portfolio-Buttons{
-    font-family: 'Roboto';
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;   
+    line-height: 1.5x;   
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;    
-    color: #4D5AE5;
+    color: var(--main-color);
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
@@ -273,15 +279,15 @@ color: #E7E9FC;
 .h3pf{
 font-weight: 500;
 font-size: 20px;
-line-height: 24px;
+line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--main-text-color);
 }
 
 .textpf{
     font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
