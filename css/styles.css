@@ -1,50 +1,66 @@
-body {
-  font-family: "roboto", sans-serif;
-  color: #e5e5e5;
-}
-.HeadF {
-  background-color: #e7e9fc;
-}
-
 :root {
   --main-color: #4d5ae5;
   --main-text-color: #2e2f42;
 }
-.List {
-  list-style: none;
-}
-.Decoration {
-  text-decoration: none;
-}
+body {
+  font-family: "roboto", sans-serif;
+  color:  #2E2F42;
 
-/* ///////////////////////////////////////////////////////////////////////////////////// */
-/* Logo 1st part */
-.Web {
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--main-color);
 }
-/* Logo 2d part */
-.Text-Head {
+/* --------------------------Comon--------------------------  */
+.maintext{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.logotext{
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.buttons{
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.headerstext{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.HeadF {
+  background-color: #e7e9fc;
+}
+/* Removing dots from the link */
+.List {
+  list-style: none;
+}
+/* Removing underline for the links  */
+.Decoration {
+  text-decoration: none;
+}
+/* ///////////////////////Logo 1st part/////Logo 2d part////////////////////////// */
+.Web {
+    line-height: 1.33;
+    color: var(--main-color);
+}
+.Text-Head {  
+  line-height: 1.33;
   color: var(--main-text-color);
 }
-/* //////////////////////////////////////////////////////////////////////////////////////// */
-
-/* Navigation links */
+/* /////////////////Navigation links///////////////////////////////////////////////////// */
 .Nav {
   font-weight: 500;
   font-size: 16px;
@@ -61,21 +77,13 @@ body {
 .Contacts:hover {
   color: var(--main-color);
 }
-
-/* //////////////////////////////////////////////////////////////////////////////////////// */
-/*  Contacts  */
+/* /////////////////////////Contacts //////////////////////////////////////////////// */
 .Contacts {
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
-/* /////////////////////////////////////////////////////////////////////////////////////// */
-/* Hero section  */
+/* /////////////////Hero section///////////////////////////////////////////////////////// */
 /* Hero Text */
-
 .Section1-h {
   font-size: 56px;
   line-height: 1.09;
@@ -88,30 +96,20 @@ body {
   background: var(--main-text-color);
 }
 /* Button text */
-.Button-BG {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-
+.Button-BG {  
+  color: #ffffff;  
   /* Color of Button */
   background: var(--main-color);
-
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 .Button-BG:hover {
   background-color: #404bbf;
 }
-.button-bg: {
+.Button-BG {
   background-color: var(--main-color);
 }
-/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* Second Section */
+/* /////////////////////////Second Section////////////////////////////////////////////////////// */
 /* Invisible header of 2d section */
 .visually-hidden {
   position: absolute;
@@ -126,34 +124,14 @@ body {
   margin: -1px;
 }
 /* Headers of 2d section */
-.Section-Features {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+.Section-Features {  
   color: var(--main-text-color);
 }
 /* Text of 2d section */
 .sect {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5x;
-  letter-spacing: 0.02em;
   color: #434455;
 }
-
-/* .Section2{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-letter-spacing: 0.02em;
-color: #2E2F42;
-} */
-
-/* //////////////////////////////////////////////////////////////////////////////////// */
-/* Section 2 - 3 headers */
+/* /////////////////// Section 2 - 3 headers//////////////////////////////////////// */
 .h2-headers {
   font-weight: 700;
   font-size: 36px;
@@ -164,19 +142,11 @@ color: #2E2F42;
   color: var(--main-text-color);
 }
 .h3-headers {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--main-text-color);
+    text-align: center;
+    color: var(--main-text-color);
 }
-.h3text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.02em;
+.h3text { 
+  text-align: center;  
   color: #434455;
 }
 .sec4bg {
@@ -194,51 +164,27 @@ color: #2E2F42;
   width: 264px;
   height: 104px;
 }
-/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
-
-/* Footer */
+/* //////////////////////Footer ////////////////////////////////////////////////////////////// */
 .footerbg {
   background: var(--main-text-color);
 }
-.Text-Head-F {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.16;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.Text-Head-F { 
+  line-height: 1.16;  
   color: #f4f4fd;
 }
-.footertext {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #e7e9fc;
-}
+.footertext {  
+  color: #e7e9fc;}
 .footersize {
   width: 264px;
   height: 110px;
   margin-left: 156px;
 }
 /* ////////////////////////////////Portfolio/////////////////////////////////// */
-
 .Portfolio-Buttons {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5x;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: var(--main-color);
+   color: var(--main-color);
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
-  border-radius: 4px;
+  border-radius: 4px;  
 }
 .Portfolio-Buttons:hover {
   color: #ffffff;
@@ -250,19 +196,9 @@ color: #2E2F42;
   background: #ffffff;
   border: 1px solid #e7e9fc;
 }
-
-.h3pf {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+.h3pf {  
   color: var(--main-text-color);
 }
-
-.textpf {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.textpf {  
   color: #434455;
 }
