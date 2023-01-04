@@ -3,8 +3,11 @@
   --main-text-color: #2e2f42;
 }
 body {
+  background-color: #ffffff;
   font-family: "roboto", sans-serif;
   color:  #2E2F42;
+  font-size: 16px;
+  font-weight: 400;
 
 }
 /* --------------------------Comon--------------------------  */
